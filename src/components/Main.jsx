@@ -1,3 +1,15 @@
+import About from "./About";
+import Skills from "./Skills";
+import Projects from "./Projects";
+import Contact from "./Contact";
+
 export default function Main() {
-  return <main className=""></main>;
+  return (
+    <main className="w-full flex flex-1 flex-col justify-center items-center">
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </main>
+  );
 }
