@@ -9,23 +9,23 @@ export default function Projects() {
       </h1>
       <ProjectList>
         <ProjectItem
-          src="/src/assets/images/weather.png"
+          src="./src/assets/images/weather.png"
           name="📱 Social Media"
         ></ProjectItem>
         <ProjectItem
-          src="/src/assets/images/weather.png"
+          src="./src/assets/images/weather.png"
           name="🛍️ Online Store"
         ></ProjectItem>
         <ProjectItem
-          src="/src/assets/images/weather.png"
+          src="./src/assets/images/weather.png"
           name="⛅ Weather"
         ></ProjectItem>
         <ProjectItem
-          src="/src/assets/images/weather.png"
+          src="./src/assets/images/weather.png"
           name="📝 To-Do List"
         ></ProjectItem>
         <ProjectItem
-          src="/src/assets/images/tic-tac-toe.png"
+          src="./src/assets/images/tic-tac-toe.png"
           name="❌ Tic Tac Toe"
         ></ProjectItem>
       </ProjectList>
