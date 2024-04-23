@@ -4,6 +4,24 @@ export default function About() {
       <h1 className="text-6xl font-bold" id="about">
         About
       </h1>
+      <div className="grid grid-cols-2 justify-center items-center">
+        <div className="flex justify-center items-center">
+          <h2 className="text-6xl text-center">
+            Hi there 👋!
+            <br />
+            I'm a Frontend Developer from
+            <br />
+            Lviv, Ukraine
+          </h2>
+        </div>
+        <div className="flex justify-center items-center">
+          <img
+            className="w-96 border rounded-full"
+            src="./src/assets/images/photo.jpeg"
+            alt="My Photo"
+          ></img>
+        </div>
+      </div>
     </section>
   );
 }
