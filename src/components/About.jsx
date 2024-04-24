@@ -1,17 +1,13 @@
 export default function About() {
   return (
-    <section className="flex flex-col justify-center items-center gap-4">
-      <h1 className="text-6xl font-bold" id="about">
+    <section className="w-full p-4 flex flex-col justify-center items-center gap-4 border-b border-text border-opacity-10">
+      <h1 className="p-4 text-6xl font-bold" id="about">
         About
       </h1>
       <div className="grid grid-cols-2 justify-center items-center">
         <div className="flex justify-center items-center">
           <h2 className="text-6xl text-center">
-            Hi there 👋!
-            <br />
-            I'm a Frontend Developer from
-            <br />
-            Lviv, Ukraine
+            Hi there 👋! I'm a Frontend Developer from Lviv, Ukraine
           </h2>
         </div>
         <div className="flex justify-center items-center">

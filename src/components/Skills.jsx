@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
-    <section className="flex flex-col justify-center items-center gap-4">
-      <h1 className="text-6xl font-bold" id="skills">
+    <section className="w-full p-4 flex flex-col justify-center items-center gap-4 border-b border-text border-opacity-10">
+      <h1 className="p-4 text-6xl font-bold" id="skills">
         Skills
       </h1>
       <div className="grid grid-cols-2">

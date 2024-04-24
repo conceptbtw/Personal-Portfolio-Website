@@ -3,8 +3,8 @@ import ProjectItem from "./ProjectItem";
 
 export default function Projects() {
   return (
-    <section className="flex flex-col justify-center items-center gap-4">
-      <h1 className="text-6xl font-bold" id="projects">
+    <section className="w-full p-4 flex flex-col justify-center items-center gap-4 border-b border-text border-opacity-10">
+      <h1 className="p-4 text-6xl font-bold" id="projects">
         Projects
       </h1>
       <ProjectList>
