@@ -8,26 +8,57 @@ export default function Projects() {
         Projects
       </h1>
       <ProjectList>
-        <ProjectItem
-          src="./src/assets/images/weather.png"
-          name="📱 Social Media"
-        ></ProjectItem>
-        <ProjectItem
-          src="./src/assets/images/weather.png"
-          name="🛍️ Online Store"
-        ></ProjectItem>
-        <ProjectItem
-          src="./src/assets/images/weather.png"
-          name="⛅ Weather"
-        ></ProjectItem>
-        <ProjectItem
-          src="./src/assets/images/weather.png"
-          name="📝 To-Do List"
-        ></ProjectItem>
-        <ProjectItem
-          src="./src/assets/images/tic-tac-toe.png"
-          name="❌ Tic Tac Toe"
-        ></ProjectItem>
+        <ProjectItem src="./weather.png" name="📱 Social Media">
+          <ul className="flex flex-wrap justify-center items-center gap-4">
+            <li className="px-4 py-2 border rounded-full">HTML5</li>
+            <li className="px-4 py-2 border rounded-full">CSS3</li>
+            <li className="px-4 py-2 border rounded-full">JavaScript</li>
+            <li className="px-4 py-2 border rounded-full">React</li>
+            <li className="px-4 py-2 border rounded-full">Tailwind CSS</li>
+            <li className="px-4 py-2 border rounded-full">Vite</li>
+          </ul>
+        </ProjectItem>
+        <ProjectItem src="./weather.png" name="🛍️ Online Store">
+          <ul className="flex flex-wrap justify-center items-center gap-4">
+            <li className="px-4 py-2 border rounded-full">HTML5</li>
+            <li className="px-4 py-2 border rounded-full">CSS3</li>
+            <li className="px-4 py-2 border rounded-full">JavaScript</li>
+            <li className="px-4 py-2 border rounded-full">React</li>
+            <li className="px-4 py-2 border rounded-full">Tailwind CSS</li>
+            <li className="px-4 py-2 border rounded-full">Vite</li>
+          </ul>
+        </ProjectItem>
+        <ProjectItem src="./weather.png" name="⛅ Weather">
+          <ul className="flex flex-wrap justify-center items-center gap-4">
+            <li className="px-4 py-2 border rounded-full">HTML5</li>
+            <li className="px-4 py-2 border rounded-full">CSS3</li>
+            <li className="px-4 py-2 border rounded-full">JavaScript</li>
+            <li className="px-4 py-2 border rounded-full">React</li>
+            <li className="px-4 py-2 border rounded-full">Tailwind CSS</li>
+            <li className="px-4 py-2 border rounded-full">Vite</li>
+          </ul>
+        </ProjectItem>
+        <ProjectItem src="./weather.png" name="📝 To-Do List">
+          <ul className="flex flex-wrap justify-center items-center gap-4">
+            <li className="px-4 py-2 border rounded-full">HTML5</li>
+            <li className="px-4 py-2 border rounded-full">CSS3</li>
+            <li className="px-4 py-2 border rounded-full">JavaScript</li>
+            <li className="px-4 py-2 border rounded-full">React</li>
+            <li className="px-4 py-2 border rounded-full">Tailwind CSS</li>
+            <li className="px-4 py-2 border rounded-full">Vite</li>
+          </ul>
+        </ProjectItem>
+        <ProjectItem src="./tic-tac-toe.png" name="❌ Tic Tac Toe">
+          <ul className="flex flex-wrap justify-center items-center gap-4">
+            <li className="px-4 py-2 border rounded-full">HTML5</li>
+            <li className="px-4 py-2 border rounded-full">CSS3</li>
+            <li className="px-4 py-2 border rounded-full">JavaScript</li>
+            <li className="px-4 py-2 border rounded-full">TypeScript</li>
+            <li className="px-4 py-2 border rounded-full">React</li>
+            <li className="px-4 py-2 border rounded-full">Tailwind CSS</li>
+            <li className="px-4 py-2 border rounded-full">Vite</li>
+          </ul>
+        </ProjectItem>
       </ProjectList>
     </section>
   );

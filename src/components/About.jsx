@@ -13,7 +13,7 @@ export default function About() {
         <div className="flex justify-center items-center">
           <img
             className="w-96 border rounded-full"
-            src="./src/assets/images/photo.jpeg"
+            src="./photo.jpeg"
             alt="My Photo"
           ></img>
         </div>
